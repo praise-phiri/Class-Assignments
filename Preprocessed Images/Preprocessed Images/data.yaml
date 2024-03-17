@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['ducks']
+
+roboflow:
+  workspace: my-computer-vision-workspace
+  project: identifying-ducks
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-computer-vision-workspace/identifying-ducks/dataset/1
